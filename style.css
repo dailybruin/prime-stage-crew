@@ -11,7 +11,7 @@
 }
 
 body {
-  background-color: grey;
+  background-color: white;
 }
 
 p {
@@ -19,9 +19,13 @@ p {
   margin-right: 1vw;
 }
 
-img {
+.header {
 	width: 80%;
 	margin-bottom: 0.9vw;
+}
+
+.logo {
+	width: 100%;
 }
 
 .caption {
