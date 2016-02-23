@@ -1,0 +1,54 @@
+.tabs-title {
+  font-weight: bold;
+}
+
+.columns {
+  background-color: white;
+}
+
+.tabs {
+  background-color: #EFEFEF;
+}
+
+body {
+  background-color: grey;
+}
+
+p {
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+img {
+	width: 80%;
+	margin-bottom: 0.9vw;
+}
+
+.caption {
+	font-size: 0.9vw;
+	font-style: italic;
+	width: 82%;
+	margin-bottom: 0.9vw;
+}
+
+.author {
+	font-size: 1vw;
+	font-style: italic;
+	width: 80%;
+	font-weight: bold;
+}
+
+.hline { 
+	width:100%; 
+	height:1px; 
+	background: black; 
+	margin-top: 1vw; 
+	margin-bottom: 
+	2vw; 
+}
+
+.disabled {
+   pointer-events: none;
+   cursor: default;
+   color: black;
+}
