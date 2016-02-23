@@ -52,3 +52,11 @@ img {
    cursor: default;
    color: black;
 }
+
+.tabs {
+    text-align: center;
+}
+.tabs li {
+    display: inline-block;
+    float: none;
+}
