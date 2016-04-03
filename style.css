@@ -21,11 +21,13 @@ p {
 
 .header {
 	width: 80%;
+	height: 100% ;
 	margin-bottom: 0.9vw;
 }
 
 .logo {
 	width: 100%;
+	margin-top: 1vw;
 }
 
 .caption {
@@ -48,19 +50,43 @@ p {
 	background: black; 
 	margin-top: 1vw; 
 	margin-bottom: 
-	2vw; 
+	2vw;
+}
+
+.tabs-title {
+	/*width: 102px;*/
+	width: 10.5%;
+}
+
+.tabs {
+    text-align: center;
+    height: 100%;
+}
+
+/*
+.tabs-title:hover {
+	background-color: black;
+	color: white;
+}
+*/
+
+.tabs li {
+    display: inline-block;
+    float: none;
+    height: 100%;
 }
 
 .disabled {
    pointer-events: none;
    cursor: default;
-   color: black;
 }
 
-.tabs {
-    text-align: center;
+.disabled > a {
+	color: black;
 }
-.tabs li {
-    display: inline-block;
-    float: none;
+
+/*
+body {
+	background-color: black;
 }
+*/
